@@ -18,69 +18,69 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
+ st.subheader("Automatización de procesos")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
+ st.write("En la siguiente enlace usaremos una aplicación de IA para automatizar tareas repetitivas.") 
  url = "https://imultimod.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
+ st.subheader("Detección de anomalías")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
+ st.write("En la siguiente enlace usaremos una aplicación de IA para detectar datos o comportamientos fuera de lo normal.") 
  url = "https://yolov5cmc.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
+ st.subheader("Predicción")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
+ st.write("En la siguiente enlace usaremos una aplicación de IA para realizar predicciones a partir de datos históricos") 
  url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
+ st.subheader("Generación de código")
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
+ st.write("En la siguiente enlace usaremos una aplicación de IA para generar y mejorar código de programación") 
  url = "https://traductorw.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
+ st.subheader("Traducción automática")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
+ st.write("En la siguiente enlace usaremos una aplicación de IA para traducir textos entre diferentes idiomas.") 
  url = "https://dataagente.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("Detección de sentimientos")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
+ st.write("En la siguiente enlace usaremos una aplicación de IA para identificar emociones en diferentes textos") 
  url = "https://transcript-whisper.streamlit.app/"
  st.write(f"Transcriptor: [Enlace]({url})")
 
 
 with col3: 
- st.subheader("Generación en Contexto")
+ st.subheader("Asistentes virtuales")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
+ st.write("En la siguiente enlace usaremos una aplicación de IA que permite interactuar mediante preguntas y respuestas.") 
  url = "https://chatpdf-cc.streamlit.app/"
  st.write(f"RAG: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("Recomendaciones personalizadas")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
+ st.write("En la siguiente enlace usaremos una aplicación de IA para generar recomendaciones según los intereses del usuario.") 
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("Reconocimiento facial")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+ st.write("En la siguiente enlace usaremos una aplicación de IA para reconocer características de diferentes rostros") 
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
 
