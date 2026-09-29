@@ -19,14 +19,14 @@ col1, col2, col3 = st.columns(3)
 with col1:
  
  st.subheader("Gradientes")
- image = Image.open('data_analisis.png')
+ image = Image.open('gradiente.png')
  st.image(image, width=190)
  st.write("En el siguiente enlace usaremos una aplicación de IA para explorar cómo las derivadas y el gradiente convierten un problema matemático en un proceso de búsqueda y optimización.") 
  url = "https://imultimod.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.subheader("Lógica, Big-O y Vectorización")
- image = Image.open('txt_to_audio.png')
+ image = Image.open('logicaybig.png')
  st.image(image, width=200)
  st.write("En el siguiente enlace usaremos una aplicación de IA para explorar la cadena que une la lógica, la complejidad Big-O y la vectorización, pilares para construir sistemas de IA eficientes y escalables.") 
  url = "https://yolov5cmc.streamlit.app/"
@@ -41,21 +41,21 @@ with col1:
 
 with col2: 
  st.subheader("Regresión Lineal")
- image = Image.open('OIG8.jpg')
+ image = Image.open('regreacion.png')
  st.image(image, width=200)
  st.write("En el siguiente enlace usaremos una aplicación de IA para estudiar la regresión lineal simple y múltiple, una técnica clave del Machine Learning para predecir valores numéricos a partir de datos históricos.") 
  url = "https://traductorw.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
  st.subheader("Series de Tiempo.")
- image = Image.open('data_analisis.png')
+ image = Image.open('seriesdetiempo.png')
  st.image(image, width=190)
  st.write("En el siguiente enlace usaremos una aplicación de IA para aprender a pronosticar el futuro a partir de datos históricos mediante series de tiempo..") 
  url = "https://dataagente.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
  st.subheader("Predicción y modelado de la calidad de aire.")
- image = Image.open('OIG3.jpg')
+ image = Image.open('calidadaire.png')
  st.image(image, width=200)
  st.write("En el siguiente enlace usaremos una aplicación de IA para predecir y modelar la calidad del aire, en particular el material particulado PM2.5 y PM10, que afecta la salud humana.") 
  url = "https://transcript-whisper.streamlit.app/"
